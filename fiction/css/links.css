@@ -1,0 +1,183 @@
+
+
+#back{
+	z-index: 305;
+} 
+
+
+.stretch{
+	width: 100%;
+	height: 100%
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#story5{
+	  width:12%;
+    height:49%;   
+    top: 31%;
+    left: 61%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    z-index: 300;
+    	transform: skewX(-16deg);
+}
+
+
+
+#story2{
+	top: 45%;
+	left: 10%;
+	width: 13%;
+	height: 38%;
+	position: absolute;
+	z-index: 300;
+	transform: skewX(30deg);
+	    margin-left: -[(maincontainerwidth/2) + 50];
+
+	
+
+}
+
+#story3{
+	top: 65%;
+	left: 70%;
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	z-index: 300;
+	transform: skewX(-36deg);
+	    margin-left: -[(maincontainerwidth/2) + 50];
+
+	
+	
+	
+
+}
+
+#story4{
+	left: 23%;
+	top: 32%;
+	width: 14%;
+	height: 43%;
+	position: absolute;
+	z-index: 300;
+	transform: skewX(23deg);
+	    margin-left: -[(maincontainerwidth/2) + 50];
+
+	
+	
+
+}
+#story1{
+  width:15%;
+    height:50%;   
+    top: 25%;
+    left: 43%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    z-index: 300;
+        margin-left: -[(maincontainerwidth/2) + 50];
+
+   
+
+	
+
+	
+
+}
+
+#back{
+	 position: relative;
+    left: 10px;
+    top: 20px;
+    z-index: 301;
+    height: 100px;
+
+
+	}   
+
+  
+
+
+
+
+
+#kings{
+	position: absolute;
+	
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	display: none;	
+
+
+}
+
+#draupadi{
+	position: absolute;
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	
+
+}
+
+#summeraftersunset{
+	position: absolute;
+	
+
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	
+}
+
+#elzvar{
+	position: absolute;
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	display: none;	
+
+	
+}
+#hearteater{
+	position: absolute;
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	display: none;	
+
+} 
+	#title{
+	position: absolute;
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+
+
+#background{
+	position: absolute;
+	
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	padding: 0;
+}

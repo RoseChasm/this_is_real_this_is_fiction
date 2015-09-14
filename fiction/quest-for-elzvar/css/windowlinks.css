@@ -1,0 +1,63 @@
+
+#back{
+    position: fixed;
+     top: 20px;
+    left: 20px;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+body{
+    margin: 0px;
+
+}
+#towerimg{
+    width:100%;
+    height:250%;
+}
+
+#book1{
+    width: 5%;
+height: 20%;
+top: 65%;
+left: 32%;
+position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+
+}
+
+#book2{
+    width: 17%;
+height: 55%;
+top: 102%;
+left: 40%;
+position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+
+}
+
+#book3{
+    width: 5%;
+height: 42%;
+top: 185%;
+left: 56%;
+position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+
+}
+
+
+
+p{
+position: fixed;
+top: 100;
+right: 600;
+}

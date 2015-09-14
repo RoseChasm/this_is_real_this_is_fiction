@@ -1,0 +1,222 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Book 2</title>
+  <style>
+  #left{
+  position: absolute;
+  left: 80px;
+  right: 0px;
+  top: 260px;
+  z-index: 300;
+
+}
+#right{
+  position: absolute;
+  left: 1100px;
+  right: 0px;
+  top: 260px;
+  z-index: 300;
+
+}
+  html, body{
+    overflow: hidden;
+    height:100%;
+}
+
+   #back{
+    width: 80px;
+    height: 500px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+
+
+  }
+  #arrows{
+    position: absolute; 
+    left: 480px;
+    top: 620px;
+  }
+   .container {
+      position: absolute;
+      left: 154px;
+      top: 20px;
+    }
+    .container:hover{
+      background-image: url(img id="arrows" src="../img/arrows.png");
+      background-repeat: no-repeat;
+
+    }
+    #slides2,
+    {
+      display: none;
+      margin-bottom:50px;
+    }
+  .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    a:link,
+    a:visited {
+      color: #333
+    }
+
+    a:hover,
+    a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="../css/example.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+</head>
+<body title="hint: use your arrow keys to flip through pages">
+  <img id="left" src="../img/left.png">
+  <img id="right" src="../img/right.png">
+  <div id="back">
+  <a href="http://thisisrealthisisfiction.com/fiction/rage-of-draupadi/index.html"><img src="../img/back.png"></a>
+  </div>
+<div class="container">
+    <div id="slides2">
+      <img src="../img/book2/b2p1.jpg" alt="c1p1">
+      <img src="../img/book2/b2p2.jpg" alt="c1p2">
+      <img src="../img/book2/b2p3.jpg" alt="c1p3">
+      <img src="../img/book2/b2p4.jpg" alt="c1p4">
+      <img src="../img/book2/b2p5.jpg" alt="c1p5">
+      <img src="../img/book2/b2p6.jpg" alt="c1p6">
+      <img src="../img/book2/b2p7.jpg" alt="c1p7">
+      <img src="../img/book2/b2p8.jpg" alt="c1p8">
+      <img src="../img/book2/b2p9.jpg" alt="c1p9">
+      <img src="../img/book2/b2p10.jpg" alt="c1p1">
+      <img src="../img/book2/b2p11.jpg" alt="c1p1">
+      <img src="../img/book2/b2p12.jpg" alt="c1p2">
+      <img src="../img/book2/b2p13.jpg" alt="c1p3">
+      <img src="../img/book2/b2p14.jpg" alt="c1p4">
+      <img src="../img/book2/b2p15.jpg" alt="c1p5">
+        <a href="http://thisisrealthisisfiction.com/fiction/rage-of-draupadi/#book3"><img src="../img/nextchapter.png" alt="b1p9"></li></a>
+      
+
+    </div>
+  </div>
+
+ <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="../js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides2').slidesjs({
+        width: 1500,
+        height: 937
+        
+      });
+      });
+
+    $(document).keydown(function(event) {
+        // left = 37, right = 39
+        switch (event.keyCode) {
+            case 37: $(".slidesjs-previous").click();
+            case 39: $(".slidesjs-next").click(); 
+        }
+    })
+    </script>
+  </body>
+  </html>
+
+

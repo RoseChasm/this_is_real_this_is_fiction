@@ -1,0 +1,25 @@
+.chapter1,  { position: absolute; overflow: auto; padding: 0px; margin: 0px; min-width:90%;
+	width: 90%;}
+	.chapter1 ul{ 
+			padding: 0px;
+			margin: 0px;
+	}
+    .chapter1,  li { list-style: none; padding: 0px;
+			margin: 0px; }
+ 
+#container{
+	right: 400px;
+}
+
+
+
+
+
+
+body{
+	background: black;
+
+}
+
+img { display: block; width: 100%; height: auto; }
+
