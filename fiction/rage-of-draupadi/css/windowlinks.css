@@ -1,0 +1,114 @@
+
+#back{
+    position: fixed;
+     top: 30px;
+    right: 1100px;
+    
+}
+
+#towerimg{
+   width:100%;
+    height:400%;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+
+
+#book1{
+   width: 11%;
+   height: 40%;
+   top: 35%;
+   left: 45%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    
+
+}
+
+#book2{
+    width: 11%;
+   height: 40%;
+   top: 95%;
+   left: 45%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+   
+
+}
+    
+
+
+#book3{
+     width: 11%;
+   height: 40%;
+   top: 155%;
+   left: 44%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    
+
+    
+}
+
+#book4{
+     width: 13%;
+   height: 40%;
+   top: 202%;
+   left: 44%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+   
+
+    
+}
+
+#book5{
+    width: 13%;
+   height: 40%;
+   top: 253%;
+   left: 44%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+   
+    
+    
+}
+
+#book6{
+   width: 13%;
+   height: 40%;
+   top: 303%;
+   left: 44%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    
+    
+}
+
+#book7{
+    width: 13%;
+   height: 40%;
+   top: 353%;
+   left: 44%;
+    position: absolute;
+    margin-left: -[(maincontainerwidth/2) + 50];
+    text-indent:-9999px;
+    
+    
+
+}
+
+
+
